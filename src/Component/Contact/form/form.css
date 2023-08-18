@@ -1,0 +1,146 @@
+/* GENERA STYLING */
+
+.form-container .row100,.form-container .row100 .col,
+.form-container .row100 .inputBox{
+    position: relative;
+    width: 100%;
+  
+}
+/* //////////////////////////////////////////////////////// */
+.form-container{
+    width: 35vw;
+    padding: 3rem;
+    position: relative;
+    right: -55%;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+}
+
+.form-container::after{
+   content: 'TVC';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 5rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #e318180d;
+  transform:skewX(4deg);
+  text-shadow: 1px 3px 24px #1877e30d;
+}
+
+
+.form-container .row100{
+     display: grid;
+    grid-template-columns: repeat(autofit,minmax(300px,1rem));
+}
+
+
+.form-container .row100 .col{
+ padding: 0 10px;
+ margin: 30px 0 10px;
+ transition: 0.5s;
+}
+
+
+.form-container .row100 .inputBoxt:focus input{
+color: hsl(var(--light__color),.5);
+}
+.form-container .row100 .inputBox{
+height: 40PX;
+color:rgba(8, 3, 42, 0.627);
+transition: 0.5s;
+}
+
+.form-container .row100 .inputBox input,
+.form-container .row100 .inputBox.textarea textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: hsl(var(--light__color),.5);
+}
+
+
+.form-container .row100 .inputBox .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+     padding: 0 10px;
+     display: block;
+     transition: 0.5s;
+}
+
+.form-container .row100 .inputBox input:focus + .text,
+.form-container .row100 .inputBox input:valid + .text{
+  top: -35px;
+    left: -10px;
+    color:  rgba(16, 5, 93, 0.627);
+    font-size: 1.5rem;
+}
+
+.form-container .row100 .inputBox .line{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: hsl(var(--colour__blue));
+        transition: 0.5s;
+        border-radius: 2px;
+        pointer-events: none;
+}
+
+
+.form-container .row100 .inputBox input:focus ~ .line,
+.form-container .row100 .inputBox input:valid ~ .line{
+       height: 100%;
+      
+}
+
+.form-container .row100 .inputBox.textarea{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    
+}
+
+ .form-container .row100 .inputBox.textarea textarea{
+      height: 100%;
+      resize: none;
+         transition: 0.5s;
+} 
+
+.form-container .row100 .inputBox textarea:focus + .text,
+.form-container .row100 .inputBox textarea:valid + .text{
+  top: -35px;
+    left: -10px;
+}
+
+.form-container .row100 .inputBox textarea:focus ~ .line,
+.form-container .row100 .inputBox textarea:valid ~ .line{
+height: 100%;
+    
+} 
+
+
+.button{
+    margin: 3rem 0;
+}
+
+
+

@@ -1,0 +1,99 @@
+
+.header{
+      
+    /* height: 100vh; */
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(218, 45, 45, 0.4)),url(../../../img/highly-spiritual.jpeg); */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+  
+    background-position-y: 80%;
+    /* background-position: ; */
+    background-blend-mode:darken;
+     background-position: center;
+    filter: blur(50%);
+    background-color: rgba(237, 98, 67, 0.3);
+    animation: colorAnimation 10s ease-in infinite alternate ;
+    margin-bottom:8rem
+}
+
+@keyframes colorAnimation {
+  0% {
+     background-color: rgba(164, 123, 18, 0.464);
+  }
+  50% {
+    background-color: rgba(25, 25, 91, 0.464);
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(218, 45, 45, 0.4)),url(../../../img/Digging.jpeg); */
+  }
+  100% {
+    background-color: rgba(0, 128, 0, 0.45);
+  }
+}
+
+.hero_text{
+  
+    width: 33vw;
+    position: relative;
+    top: 50%;
+    height: 39vh;
+    left: 50%;
+    transform: translate(5%,15%);
+    /* text-align: left; */
+    padding:0 1rem ;
+    text-align: center;
+    /* padding-left: 2rem; */
+  
+}
+
+.hero_text p{
+    font-size: 2.5rem;
+  color: rgb(223, 221, 221);
+  padding: 0;
+
+}
+
+.hero_text h1{
+    font-size: 4.5rem;
+  color: rgb(252, 252, 252);
+  padding: 0;
+
+}
+
+
+.hero_text{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+   color : #fcfcfc;
+   line-height: 1;
+}
+
+
+@media only screen and (max-width: 786px) {
+  /* Your CSS for extra small devices */
+
+
+.hero_text{
+  
+    max-width: 80vw;
+    width: 80vw;
+    position: relative;
+    top: 50%;
+    height: 32vh;
+    max-height: 37vh;
+    transform: translate(-50%,8%);
+    /* text-align: left; */
+    /* padding:0 1rem ; */
+    text-align: center;
+    /* padding-left: 2rem; */
+  
+}
+
+}
+
+.height{
+    height: 80vh;
+}
+
+
+

@@ -1,0 +1,161 @@
+.nav{
+/* position: fixed;    */
+  padding: 0 3rem;
+ background-color: hsl( var( --white__color) );
+
+}
+
+.nav, .nav__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link{
+       list-style: none;
+}
+
+.nav__link li a{
+  padding: 3rem  0rem;
+ 
+
+}
+
+
+.nav__link li a:link,
+.nav__link li a:visited,
+.section--sign-up,
+.nav__link--btn,.nav_button,.btn {
+
+  color: hsl( var( --text__color),.7 );
+  text-decoration: none;
+  
+      color: hsl( var( --color__blue),.8 );
+      font-weight: 500;
+
+ transition: all .8s;
+
+}
+
+.nav__link li a:link,
+.nav__link li a:visited{
+  /* padding: .2em; */
+  padding:.5rem 2rem;
+}
+
+.nav__link li a:hover{
+     color: rgba(139, 63, 63, 0.5);
+}
+
+.nav__link li a.active{
+color: hsl( var( --color__red) );
+font-weight: 400;
+  background-color: hsl( var( --light__red) );
+padding:.5rem 1.5rem;
+border-radius: 3px;
+}
+
+
+
+.nav__link:link,.nav__link:visited{
+    padding: 0;
+    margin-left:2rem ;
+}
+
+.nav .navLogo{
+  color: hsl(var(--color__blue));
+}
+
+
+/* MediaQuery */
+
+/* Extra Small Devices (portrait phones) */
+@media only screen and (max-width: 768px) {
+  /* Your CSS for extra small devices */
+
+.nav{
+/* position: fixed;    */
+  padding: 0 1rem;
+
+
+}
+
+
+.nav__link{
+       list-style: none;
+       display: none;
+      
+}
+
+.nav__link li a{
+  padding: 3rem  0rem;
+
+
+}
+
+
+.nav__link li a:link,
+.nav__link li a:visited,
+.section--sign-up,
+.nav__link--btn,.nav_button,.btn {
+
+  color: hsl( var( --text__color),.7 );
+  text-decoration: none;
+  
+      color: hsl( var( --color__blue),.8 );
+      font-weight: 500;
+
+ transition: all .8s;
+
+}
+
+.nav__link li a:link,
+.nav__link li a:visited{
+  /* padding: .2em; */
+  padding:.5rem 2rem;
+}
+
+.nav__link li a:hover{
+     color: rgba(139, 63, 63, 0.5);
+}
+
+.nav__link li a.active{
+color: hsl( var( --color__red) );
+font-weight: 400;
+  background-color: hsl( var( --light__red) );
+padding:.5rem 1.5rem;
+border-radius: 3px;
+}
+
+
+
+.nav__link:link,.nav__link:visited{
+    padding: 0;
+    margin-left:2rem ;
+}
+
+.nav .navLogo{
+  color: hsl(var(--color__blue));
+}
+
+}
+
+/* Small Devices (landscape phones) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Your CSS for small devices */
+}
+
+/* Medium Devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS for medium devices */
+}
+
+/* Large Devices (desktops) */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* Your CSS for large devices */
+}
+
+/* Extra Large Devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+  /* Your CSS for extra large devices */
+}

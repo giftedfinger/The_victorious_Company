@@ -1,0 +1,11 @@
+.bgHeight{
+    height: 80vh;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Your CSS for extra small devices */
+.bgHeight{
+    height: 8vh;
+}
+
+}

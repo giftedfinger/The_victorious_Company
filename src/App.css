@@ -1,0 +1,19 @@
+
+
+.App{
+   background-image: url(./img/body-bg.avif);
+  background-blend-mode:color;
+   background-color: rgba(255, 255, 255, 0.863);
+
+box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.26);
+-webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.26);
+   margin: 0;
+ 
+}
+.About{
+   margin-top: 4rem;
+}
+.logo{
+  color: hsl(var(--color__blue));
+}

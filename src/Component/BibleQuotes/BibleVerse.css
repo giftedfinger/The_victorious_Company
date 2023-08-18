@@ -1,0 +1,73 @@
+
+.Bibleverse{
+     background-image:linear-gradient(hsl(var(--color__blue),.1),hsl(var(--color__blue),.1)),url(../../img/aaron-burden-535Npq1wFG8-unsplash.jpg);
+    background-repeat: no-repeat;
+  background-size: cover; 
+background-position: center;
+background-attachment: fixed;
+background-blend-mode:multiply;
+background-color: hsl(var(--color__red),.55);
+height: 80vh;
+position: relative;
+}
+
+.Bibleverse .quotes_stYle{
+  width: 40vw;
+  min-height: 30vh;
+  border: none;
+  margin: 0 auto;
+  color: white;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%,-60%);
+text-align: center;
+  
+}
+
+.Bibleverse .quotes_stYle{
+ 
+  background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 14px 30px rgba(0, 0, 0, 0.456);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 2px solid rgb(245, 245, 242,.1);
+padding: 0 3rem;
+}
+
+.Bibleverse h3{
+    text-align: center;
+    color: hsl(var(--light__color));
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  /* Your CSS for extra small devices */
+.Bibleverse .quotes_stYle{
+  width: 90%;
+  min-height: 30vh;
+
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%,-50%);
+  
+}
+
+.Bibleverse{
+  height: 60vh;
+}
+
+.Bibleverse h3{
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+}

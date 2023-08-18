@@ -1,0 +1,160 @@
+.split_Screen,.tableHeader,.tableRow,.sundayServices{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicesheader{
+    color: hsl(var(--color__blue));
+}
+
+/* .container h2{
+    margin-bottom: 4rem;
+    border: 1px solid rgb(215, 145, 145);
+} */
+
+
+
+.split_Screen{
+   background-color: hsl(var(--color__blue),.2);
+    height: 90vh;
+  padding-top: 5rem;
+      margin: 4rem 0;
+}
+
+
+.table {
+  position:relative;
+ left:-4% ;
+  text-align: center;
+  margin-left: 10rem;
+  width: 54vw;
+  height: 68vh;
+  background-color: #f7f7f7; /* Add your preferred background color */
+z-index: 100;
+box-shadow: 30px 30px 0px hsl(var(--color__blue));
+}
+
+
+.table_sideBlue {
+ 
+    position:relative;
+  top: 5%;
+  right: 0%;
+  bottom: 0;
+  left:-4%;
+width: 60vw;
+  height: 91vh;
+ box-shadow: 20px -15px 0px hsl(var( --white_color));
+border: 3px solid hsl(var(--color__blue));
+}
+
+
+.tableRow li,.tableHeader li{
+       color: hsl(var(--color__blue));
+   list-style: none;
+}
+
+.tableRow li:nth-child(1){
+    font-weight: 00;
+    padding: 2px;
+    background-color:hsl(var(--color__blue),.2);;
+}
+.tableHeader,.tableRow,.sundayServices{
+
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+ 
+.tableHeader li{
+      font-size: 3rem;
+    font-weight: 400;
+}
+
+.tableRow{
+    height: 13vh;
+}
+
+.sundayServices{
+        height: 6vh;
+        gap: 2rem;
+        text-align: center;
+         
+}
+
+
+
+.tableHeader:last-child{
+    height:20vh;
+}
+
+.tableHeader:last-child td:last-child{
+    height:6vh;
+    text-align: left;
+}
+
+
+
+
+
+  @media only screen and (max-width: 580px) {
+  /* Your CSS for extra small devices */
+.split_Screen,.tableHeader,.tableRow,.sundayServices{
+    display: block;
+    border: 1px solid;
+    height: 10vh;
+    font-size: 2rem;
+    
+}
+
+
+.split_Screen{
+   background-color: hsl(var(--color__blue),.2);
+    height: 90vh;
+}
+
+
+.table {
+    
+ left:-50% ;
+ transform: translate(40%);
+  text-align: center;
+  width: 85vw;
+  height: 88vh;
+  
+}
+
+.tableHeader,.tableRow{
+
+    display: flex;
+  
+}
+
+.suday_service_header{
+    font-size: 2rem;
+}
+
+.sundayServices{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+.sunday{
+    
+    display: block;
+    
+}
+.tableRow  .suday_service_header {
+    
+}
+
+.table_sideBlue{
+    display: none;
+}
+}
+
+ 

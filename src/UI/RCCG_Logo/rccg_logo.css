@@ -1,0 +1,41 @@
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo img{
+  width: 4vw;
+}
+.logo h1{
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  padding-left: 1rem;
+  border-left: 1px solid;
+  height: 10vh;
+  margin-left: 1rem;
+  /* border: 1px solid red; */
+  font-weight: 500;
+  
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 480px) {
+  /* Your CSS for extra small devices */
+.btn{
+  display: none;
+}
+
+.logo h1{
+ 
+  font-weight: 400;
+font-size: 1.3rem;
+  
+}
+.logo img{
+  width: 12vw;
+}
+
+}

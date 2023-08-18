@@ -1,0 +1,31 @@
+.btn{
+ padding: 1rem 4rem;
+  background-image:linear-gradient( hsl(var(--color__red),.5),hsl(var(--color__red)));
+
+ /* background-color:hsl(var(--color__red)); */
+border-radius: .6rem;
+font-size: 1.7rem;
+border:none;
+/* letter-spacing: var(--line__spacing); */
+transition: all 1s;
+color:hsl(var(--white_color))
+}
+
+
+.btn:hover{
+  background-image:linear-gradient( hsl(var(--light__red),.6), hsl(var(--color__red),.5));
+color: hsl(var(--color__red)); 
+font-weight: 500;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 480px) {
+  /* Your CSS for extra small devices */
+.btn{
+  display: none;
+}
+
+
+
+}

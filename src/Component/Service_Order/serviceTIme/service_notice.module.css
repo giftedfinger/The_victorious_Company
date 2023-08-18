@@ -1,0 +1,5 @@
+.container{
+    width: 40vw;
+    background-color: hsl(var(--color__blue));
+  
+}
