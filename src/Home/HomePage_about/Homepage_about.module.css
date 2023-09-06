@@ -44,6 +44,7 @@ justify-content: center;
 
 .about h3{
 margin: 3rem 0;
+margin-bottom: 1rem;
     color: hsl(var(--color__blue),.5);
     font-weight: 700;
     font-size: 3.5rem;

@@ -5,14 +5,14 @@ import   './nav.css'
    import Button from '../../../UI/button/button'
 import Logo from '../../../UI/RCCG_Logo/Rccg_logo'
 
-const nav = () => {
+const   nav = (props) => {
   return (
-    <nav className='nav'>
+    <nav className='nav'  >
         <Logo color='navLogo'/>
       
                 <ul className='nav__link'>
                 <li >
-                    <NavLink activeClassName='active' to="/">Home</NavLink>
+                    <NavLink className='navGlass' activeClassName='active navGlass' to="/">Home</NavLink>
                 </li>
                 <li>
                     <NavLink  to="/About">About</NavLink>
@@ -33,7 +33,7 @@ const nav = () => {
 
                        <NavLink to="/contact">
 
-             <Button Btn_text='Join Us '  />
+             <Button Btn_text='Join Us '  className='btn' />
              
               </NavLink>
                     

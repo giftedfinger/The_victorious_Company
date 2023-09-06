@@ -48,16 +48,16 @@ function SermonListDisplay(props) {
         <h5>Title: {title}</h5>
         <ul>
           <li>
-            <span>Preacher</span>: {preacher}
+            Preacher:   <span> {preacher}</span>
           </li>
           <li>
-            <span>Date</span>: {date}
+            Date:   <span> {date}</span>
           </li>
           <li>
-            <span>Passage</span>: {passage}
+          Passage: <span>  {passage}</span>
           </li>
           <li>
-            <span>Description</span>: {description}
+            Description: <span> {description}</span>
           </li>
         </ul>
       </div>

@@ -1,0 +1,23 @@
+/* CSS animations */
+.fade-in {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s ease-in-out;
+}
+.fade-in-visible {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slide-up {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(10px);
+  transition: transform 1s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+}
+.slide-up-visible {
+  transform: translateY(-100px);
+  opacity: 0;
+visibility: hidden;
+}

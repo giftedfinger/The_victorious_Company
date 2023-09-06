@@ -1,9 +1,18 @@
 .nav{
 /* position: fixed;    */
   padding: 0 3rem;
- background-color: hsl( var( --white__color) );
+ color: hsl( var( --white__color  ) );
+ border: none;
+ border-radius: none;
 
 }
+
+.navGlass{
+  border: none;
+}
+/* .glassmorphism{
+
+} */
 
 .nav, .nav__link{
     display: flex;
@@ -20,17 +29,18 @@
  
 
 }
-
+.btn{
+  color: hsl( var( --white__color  ) );
+}
 
 .nav__link li a:link,
 .nav__link li a:visited,
 .section--sign-up,
 .nav__link--btn,.nav_button,.btn {
 
-  color: hsl( var( --text__color),.7 );
   text-decoration: none;
   
-      color: hsl( var( --color__blue),.8 );
+      color: hsl( var( --white__color),.8 );
       font-weight: 500;
 
  transition: all .8s;
@@ -43,14 +53,15 @@
   padding:.5rem 2rem;
 }
 
-.nav__link li a:hover{
+/* .nav__link li a:hover{
      color: rgba(139, 63, 63, 0.5);
-}
+} */
 
 .nav__link li a.active{
-color: hsl( var( --color__red) );
+/* color: hsl( var( --color__red) ); */
 font-weight: 400;
-  background-color: hsl( var( --light__red) );
+  /* background-color: hsl( var( --white__color  ) ); */
+  border-bottom:  1px solid ;
 padding:.5rem 1.5rem;
 border-radius: 3px;
 }
@@ -101,8 +112,8 @@ border-radius: 3px;
 
   color: hsl( var( --text__color),.7 );
   text-decoration: none;
-  
-      color: hsl( var( --color__blue),.8 );
+/*   
+      color: hsl( var( --color__blue),.8 ); */
       font-weight: 500;
 
  transition: all .8s;
@@ -135,7 +146,8 @@ border-radius: 3px;
 }
 
 .nav .navLogo{
-  color: hsl(var(--color__blue));
+  color: hsl(var(--white__color));
+  font-weight: 600;
 }
 
 }

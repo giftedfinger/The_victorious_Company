@@ -39,7 +39,7 @@ const texts = ['Building a generation that seek God ',
   return (
     <Card className={`${classes.Section} ${classes.Kids_Section}`} >
 
-       <BackgroundAnimation background={backgroundImages} text={texts} height ={`80vh`} />;
+       <BackgroundAnimation background={backgroundImages} text={texts} position={classes.position} height ={`95vh`} />;
 
           <h2 className={classes.Kids_Header}>Kids Page</h2>
 

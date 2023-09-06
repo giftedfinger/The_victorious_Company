@@ -40,13 +40,13 @@ margin-left: 2rem;
     position:relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    left: 50%;
+    transform: translate(-50%);
     padding-top: 5em;
-    padding-left: 2em;
-   
-
+    /* padding-left: 2em;? */
+  
 }
+
 .event_list{
   padding-top: 8rem;
 width: 15vw;
@@ -69,7 +69,7 @@ cursor: pointer;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    width: fit-content;
+    /* width: fit-content; */
 color: hsl(var(--white_color),.7);  
 font-weight: 500;
 
@@ -103,3 +103,50 @@ text-align: left;
 }
 
 
+@media only screen and (max-width: 480px) {
+
+ .footer .logo h1{
+font-size: 2rem;
+  }
+
+  .footer .logo img{
+    min-width: 30vw;
+    padding: 1em;
+  }
+
+  .logo_container{
+    padding: 1rem;
+  }
+
+  .event_list{
+    width: 100%;
+    padding-top: 0;
+    /* text-align: center; */
+  }
+
+  .event_list ul li{
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .griditem ul li{
+    text-align: center;
+  }
+
+  .grid{
+    gap: 3rem;
+  }
+
+  .griditem {
+    border-bottom: .8px solid hsl(var(--text-color__blue),.6);
+  }
+
+  .griditem:last-child{
+    border: none;
+  }
+
+  .griditem .contact li{
+    text-align: left;
+  }
+}

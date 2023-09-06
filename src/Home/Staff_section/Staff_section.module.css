@@ -41,7 +41,7 @@ height: 80vh;
   top: 200px;
   transform: translateY(-50%);
 
-  color: var(--clr-white);
+  color: var(-- --white_color);
   width: 5rem;
   height: 1.25rem;
   display: grid;
@@ -49,7 +49,7 @@ height: 80vh;
     align-content: center;
   place-items: center;
   border-color: transparent;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-radius: var(--radius);
   cursor: pointer;
   transition: var(--transition);
@@ -76,6 +76,20 @@ article {
   transition: all .7s linear;
 }
 
+article h4{
+  margin: 0;
+  line-height: 2.5rem;
+}
+
+article p{
+margin-top: 1rem;
+text-align: left;
+width: 40vw;
+position: relative;
+left:50%;
+/* top:50%; */
+transform: translate(-40%);
+}
 article.activeSlide {
   opacity: 1;
   transform: translateX(0);

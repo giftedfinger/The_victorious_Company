@@ -18,6 +18,17 @@ width: 80%;
            margin-bottom: 18px;
 }
 
+/* Hero text  */
+
+.position{
+
+  position: relative;
+  left: 50%;
+  top :50%;
+  transform: translate(-50%,-10%);
+  
+}
+
 .ABoutImgStyle{
   /* background:hsl(var(--color__red),.8) ; */
     width: 70vw;
@@ -45,6 +56,7 @@ width: 90%;
 padding-top: 0;
 
 }
+
 
 .About_text{
    
@@ -78,3 +90,37 @@ padding: 2rem;
     
 }
 
+
+@media only screen and (max-width: 786px) {
+
+    .rightflex,.leftFlext{
+flex-direction: column;
+width: 98%;
+   
+
+}
+
+.About_text{
+   
+    width: 100%;
+    line-height: 2.5rem;
+    padding:  2rem;
+ 
+}
+
+.position{
+
+  position: relative;
+  left: 50%;
+  top :50%;
+  transform: translate(-50%,-10%);
+  
+}
+
+  img {
+    max-width: 100%;
+    width: 90vw;
+    image-rendering: optimizeSpeed;
+    filter: grayscale(0%);
+}
+}

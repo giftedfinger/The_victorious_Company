@@ -25,7 +25,8 @@ font-family: 'Roboto', sans-serif; */
   --font-size: 1.7rem;
   --line__spacing:1px;
   --font-family: 'Roboto', sans-serif;
-  
+  --font-weight: 400;
+  --radius :5px
 }
 
 html{
@@ -33,7 +34,7 @@ html{
   /* font-family: 'Montserrat', sans-serif; */
 font-family:var(--font-family);
 font-size: 0.625rem;
-font-weight: 100;
+font-weight: hsl(var(--font-weight));
  text-rendering: optimizeLegibility;
    letter-spacing: 0.05em;
     line-height: 1.5;
@@ -99,7 +100,7 @@ color: hsl(var(--color__red),.65);
 
 p{
   letter-spacing: var(--line__spacing);
-  font-weight:400;
+  
 }
 
 ul li {
@@ -145,10 +146,12 @@ html {
   html {
     font-size: 0.625rem;; /* Adjust as needed */
   }
+
+  
 }
 
 /* Media query for larger screens (e.g., tablets and desktops) */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 480px) {
   html {
     font-size: 0.625rem;
   }

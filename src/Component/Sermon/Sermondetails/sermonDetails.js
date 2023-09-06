@@ -17,7 +17,7 @@ const SermonDetails = () => {
  
   return (
     <>
-      <BackgroundAnimation background={backgroundImages} text={texts} top_text={top_text} height={`80vh`} />
+      <BackgroundAnimation background={backgroundImages} position={classes.position} text={texts} top_text={top_text} height={`90vh`} />
       ;
       <Card>
         <h4 className={classes.sermonHeader}>Sermon Archives</h4>

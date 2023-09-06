@@ -3,7 +3,7 @@
   background-image:linear-gradient( hsl(var(--color__red),.5),hsl(var(--color__red)));
 
  /* background-color:hsl(var(--color__red)); */
-border-radius: .6rem;
+border-radius:var(--radius);
 font-size: 1.7rem;
 border:none;
 /* letter-spacing: var(--line__spacing); */

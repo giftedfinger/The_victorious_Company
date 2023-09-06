@@ -1,13 +1,13 @@
 import React, { useState,useEffect } from 'react'
-import Card from '../Card'
+import Card from '../../UI/Card'
 import classes from './Staff_section.module.css'
-import StaffCard from './Staff_Card/StaffCard'
+// import StaffCard from './Staff_Card/StaffCard'
 import pst_content from './Staff_Card/staff_content'
 
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Example icons
 
 
-import Button from '../button/button'
+import Button from '../../UI/button/button'
 
 
 
@@ -17,7 +17,7 @@ import Button from '../button/button'
 
 const Section2 = () => {
 
-  const [Pastors, setPastoe]=useState(pst_content)
+  const [Pastors, setPastor]=useState(pst_content)
   const [index, setIndex]=useState(0)
 
   // settin index to last index if index is less than 0

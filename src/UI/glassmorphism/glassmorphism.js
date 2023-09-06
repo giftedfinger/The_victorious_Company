@@ -5,7 +5,7 @@ const glassmorphism =(props)=> {
 
     const  classes = `glassmophism   ${props.className}`;
   
-  return <div className={classes}>{props.children}</div>;
+  return <div style = {props.style} className={classes}>{props.children}</div>;
 
   
 }

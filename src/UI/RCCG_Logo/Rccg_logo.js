@@ -6,7 +6,7 @@ const Rccg_logo =(props)=> {
   console.log(props.color)
   return (
         <div className={`logo ${props.color}`}> 
-         <img src={logo} alt="Logo pix"/> <h1> THE VICTORIOUS <br/>COMPANY PARISH </h1>
+         <img src={logo} alt="RCCG logo"/> <h1> THE VICTORIOUS <br/>COMPANY PARISH </h1>
         </div>
   )
 }

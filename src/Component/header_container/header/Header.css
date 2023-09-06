@@ -1,20 +1,21 @@
 
-.header{
+header{
       
-    /* height: 100vh; */
-    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(218, 45, 45, 0.4)),url(../../../img/highly-spiritual.jpeg); */
-    background-repeat: no-repeat;
-    /* background-position: center; */
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(218, 45, 45, 0.4)),url(../../../img/highly-spiritual.jpeg);
     background-size: cover;
-  
-    background-position-y: 80%;
-    /* background-position: ; */
+  background-position: fixed;
     background-blend-mode:darken;
      background-position: center;
+     background-attachment: fixed;
     filter: blur(50%);
     background-color: rgba(237, 98, 67, 0.3);
     animation: colorAnimation 10s ease-in infinite alternate ;
     margin-bottom:8rem
+}
+
+.stick {
+  position: fixed;
 }
 
 @keyframes colorAnimation {
@@ -31,31 +32,21 @@
 }
 
 .hero_text{
-  
     width: 33vw;
-    position: relative;
-    top: 50%;
     height: 39vh;
-    left: 50%;
-    transform: translate(5%,15%);
-    /* text-align: left; */
-    padding:0 1rem ;
-    text-align: center;
-    /* padding-left: 2rem; */
-  
-}
-
-.hero_text p{
-    font-size: 2.5rem;
-  color: rgb(223, 221, 221);
-  padding: 0;
+    padding:3rem 1rem ;
+    border: 1px solid rgb(186, 183, 183);
 
 }
 
 .hero_text h1{
+  color: rgb(223, 221, 221);
+  margin: 0% auto;
+  width: 90%;
+  line-height: 6rem;
     font-size: 4.5rem;
   color: rgb(252, 252, 252);
-  padding: 0;
+
 
 }
 
@@ -68,6 +59,11 @@
    line-height: 1;
 }
 
+.heroBUtton{
+  display: block;
+  margin: 0 auto;
+
+}
 
 @media only screen and (max-width: 786px) {
   /* Your CSS for extra small devices */

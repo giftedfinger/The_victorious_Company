@@ -23,7 +23,7 @@ const Footer = (props) => {
         </div>
           <div className="griditem">
            <h3>Contact us</h3>
-           <ul>
+           <ul className='contact'>
               <li>address: 312, borno way off hotel lawal</li>
               <li>tel: 08183435263</li>
               <li>email: olakunle.iyiola@yahoo.com</li>

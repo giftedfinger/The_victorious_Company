@@ -25,7 +25,7 @@ height: 35vh;
 width: 30vw;
 padding-top:2rem ;
 padding-left: 1rem;
-color: hsl(var(--white_color));
+color: hsl(var(--white_color),.88);
 line-height: 4rem;
 z-index: 100;
 box-shadow: 15px 20px 0px hsl(7, 89%, 82%);
@@ -46,6 +46,15 @@ order: 1;
 
 }
 
+.position{
+
+  position: relative;
+  left: 50%;
+  top :50%;
+  transform: translate(-50%,-10%);
+  
+}
+
 .Our_futures{
 padding-left: 3rem;
     height: 100vh;
@@ -62,7 +71,7 @@ padding-left: 3rem;
     background-position: center;
     background-size: cover;
     background-blend-mode:lighten;
-    background-color: hsl(var(--color__red),.6);
+    background-color: hsl(var(--color__red),.2);
     margin: 0 auto;
    -webkit-clip-path: circle(50% 20% at 50% 10%);
 clip-path: circle(50% 50%at 30% 50%);
@@ -72,7 +81,8 @@ clip-path: circle(50% 50%at 30% 50%);
     color: hsl(var(--color__red),.8);
 }
 
- .buttonContainer{
+
+.buttonContainer{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +93,8 @@ clip-path: circle(50% 50%at 30% 50%);
  
 }
 
+ 
+
  .buttonContainer .button{
     display: flex;
     align-items: center;
@@ -91,13 +103,13 @@ clip-path: circle(50% 50%at 30% 50%);
     border: 1px solid hsl(var(--light__red));
     margin-left: 4rem;
     cursor: pointer;
-          color: hsl(var(--color__red));
-
+  color: hsl(var(--color__red));
     background-image:linear-gradient( hsl(var(--light__red )),hsl(var(--light__red ),7));
 text-align: center;
   
     
 }
+
 
 .buttonContainer  .button:hover{
     background-image:linear-gradient( hsl(var(--color__red )),hsl(var(--color__red ),.8));
@@ -119,7 +131,8 @@ display: inline-block;
 position: absolute;
 right: 0%;
 margin-top: .2rem;
-background-color: hsl(var(--dark_grey));
+    background-color: hsl(var(--light__red ));
+/* background-color: hsl(var(--),.5); */
 height: 3px;
 width: 10vw;
 z-index: -1;
@@ -135,7 +148,87 @@ display: inline-block;
 }
 
 
+@media only screen and (max-width: 786px) {
 
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100vw;
+}
+
+
+ .main .Kids_Topic{
+  
+width: 100vw;
+
+}
+
+.Our_futures {
+
+    width: 100vw;
+  
+    /* scroll-behavior: smooth; */
+}
+
+ .main .container{
+
+width: 100%;
+margin-top: 15rem;
+/* order: 1; */
+
+}
+
+
+ .buttonContainer{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    top: 40%;
+    gap: 0;
+ 
+}
+.buttonContainer .button::after {
+
+display: none;
+
+
+
+}
+
+/* .buttonContainer{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+ 
+} */
+
+.buttonContainer .button{
+
+    margin-left: 2rem;
+    width: 25vw;
+  
+    
+}
+
+
+.buttonContainer   .button::after:hover{
+    content: '';
+display: inline-block;
+    background-color: hsl(var(--color__red ));
+       
+}
+
+
+
+.Kids_Section h2{
+    margin: 2rem;
+    color: hsl(var(--color__red ));
+}
+
+}
 
 
 

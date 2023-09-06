@@ -6,7 +6,7 @@ import pix from '../../img/sisTunde.jpg'
 import pix2 from '../../img/sisIFY.jpg'
 import Button from '../../UI/button/button'
 import Card from '../../UI/Card'
-function HomePage_about() {
+function HomePage_about(props) {
   return (
     <Card className={classes.main}>
 
