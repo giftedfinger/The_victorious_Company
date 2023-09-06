@@ -14,6 +14,7 @@ const [sermonItem, setSermonItem] =useState(sermons)
 const  [category,setCategory] =useState([]);
 
   return (
+    
   <Card>
 
        <SermonDetails items={sermonItem}/>

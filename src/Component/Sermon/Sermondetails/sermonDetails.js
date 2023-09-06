@@ -8,6 +8,7 @@ import sermon from '../../../img/preachingRotate.jpeg';
 import Card from '../../../UI/Card';
 
 import SermonListDisplay from './SermonListDisplay';
+import AnimationSection from '../../../UI/IntersectionAnimation/Animation';
 
 const SermonDetails = () => {
   const backgroundImages = [sermon, sermon];
@@ -21,7 +22,10 @@ const SermonDetails = () => {
       ;
       <Card>
         <h4 className={classes.sermonHeader}>Sermon Archives</h4>
+        <AnimationSection animationClass="fade-in">
+
         <div className={classes.main}><SermonListDisplay /></div>
+        </AnimationSection>
       </Card>
     </>
   );

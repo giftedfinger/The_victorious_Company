@@ -14,7 +14,7 @@ const AnimationSection = ({ children, animationClass }) => {
     observer.observe(sectionRef.current);
 
     return () => {
-      observer.unobserve(sectionRef.current);
+      // observer.unobserve(sectionRef.current);
     };
   }, []);
 
