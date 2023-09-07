@@ -1,4 +1,4 @@
-import {Routes, Route, Switch,Redirect} from 'react-router-dom'
+import {Routes, Route,useNavigate} from 'react-router-dom'
 import './App.css';
 
 import About from './Component/About/About';
@@ -14,6 +14,14 @@ import Home from './Home/Home';
   
 
 function App() {
+
+  const navigate = useNavigate();
+
+  // Redirect unmatched routes to the Home component
+  const redirectToHome = () => {
+    navigate('/');
+  };
+
   return (
     <ErrorBoundary>
     <div className="App">
@@ -21,16 +29,14 @@ function App() {
        {/* <Header/> */}
    
         <Routes>
-          <Switch>   
-            <Route>
-            <Redirect  to={<Home/>}/>
-            </Route>
-          <Route path="/" element={<Home />}  exact/>
+         
+          <Route path="/" element={ <Home/>}  exact/>
            <Route path="/sermon" element={<Sermon />} />
            <Route path="/About" element={<About/>} />
            <Route path="/kids" element={<Kids/>} />
            <Route path="/contact" element={<Contact/>} />
-</Switch>
+           <Route path="*" element={<Home />} />
+      <Route path="*" element={redirectToHome} />
 
        </Routes>
     

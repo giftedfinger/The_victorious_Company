@@ -117,13 +117,16 @@ height: 100vh;
     display: block;
  padding: 0 3rem;
      gap: 0rem;
- margin-bottom: 20rem;
+ margin-bottom: 0rem;
  /* overflow: hidden; */
 }
 
+
+
+
 .about{
 
-    width: 66vw;
+    width: 83vw;
     display: block;
     
 }
@@ -135,7 +138,8 @@ background-image:linear-gradient(  hsl(var(--color__blue),.3), hsl(var(--color__
     width: 30vw;
     display: block;
     padding: 4% 0;
-    margin: 10rem 0;
+    margin: 3rem 0;
+    margin-bottom: 10rem;
 }
 
 
@@ -150,7 +154,7 @@ position: relative;
     
  display: block;
     max-width: 80%;
-    width: 70%;
+    width: 46%;
     /* height: 70%; */
     border-radius: 10px;
     /* border: 3px solid hsl(var(--color__red)); */
@@ -181,6 +185,9 @@ position: relative;
 z-index: 4;
 border: none;
 }
+
+
+
 
 }
 

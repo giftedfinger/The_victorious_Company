@@ -12,12 +12,21 @@
 .slide-up {
   opacity: 1;
   visibility: visible;
-  transform: translateY(10px);
+  transform: translateY(-40px);
   transition: transform 1s ease-in-out;
   transition: opacity 1.5s ease-in-out;
 }
 .slide-up-visible {
-  transform: translateY(-100px);
+  transform: translateY(-0px);
   opacity: 0;
 visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+
+.slide-up {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-100px);
+}
 }

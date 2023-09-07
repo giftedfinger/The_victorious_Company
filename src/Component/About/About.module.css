@@ -117,10 +117,10 @@ width: 98%;
   
 }
 
-  img {
+  /* img {
     max-width: 100%;
     width: 90vw;
     image-rendering: optimizeSpeed;
     filter: grayscale(0%);
-}
+} */
 }

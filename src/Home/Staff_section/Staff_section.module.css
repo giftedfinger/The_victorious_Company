@@ -79,6 +79,8 @@ article {
 article h4{
   margin: 0;
   line-height: 2.5rem;
+  margin-top: 2rem;
+
 }
 
 article p{
@@ -100,6 +102,29 @@ article.lastSlide {
   article.nextSlide {
   transform: translateX(100%);
     
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .section-center {
+/* border: 1px solid; */
+width: 90vw;
+height: 70vh;
+
+  }
+
+article p{
+margin-top: 1rem;
+text-align: left;
+width: 80vw;
+    transform: translate(-50%,12%);
+}
+
+article h4{
+}
 }
 
 
