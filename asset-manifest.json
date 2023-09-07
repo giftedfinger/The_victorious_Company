@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/The_victorious_Company/static/css/main.4f6d3ac5.css",
-    "main.js": "/The_victorious_Company/static/js/main.01b4571b.js",
+    "main.js": "/The_victorious_Company/static/js/main.d244792e.js",
     "static/media/aaron-burden-535Npq1wFG8-unsplash.jpg": "/The_victorious_Company/static/media/aaron-burden-535Npq1wFG8-unsplash.db9816d666da349aed25.jpg",
     "static/media/children4.jpg": "/The_victorious_Company/static/media/children4.f2ea28a31ca1836ade7f.jpg",
     "static/media/lifted_child.jpg": "/The_victorious_Company/static/media/lifted_child.fceac0ef00d16a2b7cb8.jpg",
@@ -39,10 +39,10 @@
     "static/media/body-bg.avif": "/The_victorious_Company/static/media/body-bg.70c7aa513166a215b8ee.avif",
     "index.html": "/The_victorious_Company/index.html",
     "main.4f6d3ac5.css.map": "/The_victorious_Company/static/css/main.4f6d3ac5.css.map",
-    "main.01b4571b.js.map": "/The_victorious_Company/static/js/main.01b4571b.js.map"
+    "main.d244792e.js.map": "/The_victorious_Company/static/js/main.d244792e.js.map"
   },
   "entrypoints": [
     "static/css/main.4f6d3ac5.css",
-    "static/js/main.01b4571b.js"
+    "static/js/main.d244792e.js"
   ]
 }
