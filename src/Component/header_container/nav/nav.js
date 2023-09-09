@@ -1,6 +1,7 @@
 
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import { FaBars } from 'react-icons/fa'
 import   './nav.css'
    import Button from '../../../UI/button/button'
 import Logo from '../../../UI/RCCG_Logo/Rccg_logo'
@@ -9,6 +10,8 @@ const   nav = (props) => {
   return (
     <nav className='nav'  >
         <Logo color='navLogo'/>
+      <FaBars className='navIcon'/>
+
       
                 <ul className='nav__link'>
                 <li >
@@ -28,14 +31,16 @@ const   nav = (props) => {
                     <li>
                     <NavLink to="/service">Donate</NavLink>
                 </li>
-                
-                </ul>
 
-                       <NavLink to="/contact">
+                <li>          <NavLink to="/contact">
 
              <Button Btn_text='Join Us '  className='btn' />
              
-              </NavLink>
+              </NavLink>    </li>
+                
+                </ul>
+
+             
                     
             
     </nav>

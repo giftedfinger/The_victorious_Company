@@ -10,10 +10,10 @@
 .logo h1{
   display: flex;
   align-items: center;
-  font-size: 1.7rem;
+  font-size: 1rem;
   padding-left: 1rem;
   border-left: 1px solid;
-  height: 10vh;
+  height: 6vh;
   margin-left: 1rem;
   /* border: 1px solid red; */
   color: white;

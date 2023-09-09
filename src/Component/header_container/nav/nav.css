@@ -78,6 +78,11 @@ border-radius: 3px;
 }
 
 
+.nav .navIcon{
+  color: hsl( var( --white_color) );
+  display: none;
+}
+
 /* MediaQuery */
 
 /* Extra Small Devices (portrait phones) */
@@ -148,6 +153,13 @@ border-radius: 3px;
 .nav .navLogo{
   color: hsl(var(--white__color));
   font-weight: 600;
+}
+
+.nav .navIcon{
+  color: hsl( var( --white_color) );
+  display: block;
+  font-size: 2.5rem;
+
 }
 
 }

@@ -94,13 +94,13 @@ margin-bottom: 1rem;
 }
 
 .about .button{
-background-image:linear-gradient(  hsl(var(--color__blue),.3), hsl(var(--color__blue)));
+background-image:linear-gradient(  var(--clr-primary-1), var(--clr-primary-6));
     width: 15vw;
     display: block;
 }
 
 .button:hover{
-  background-image:linear-gradient(  hsl(var(--color__blue),.05), hsl(var(--color__blue),.7));
+  background-image:linear-gradient( var(--clr-primary-4), var(--clr-primary-9));
     
     /* background-color: hsl(var(--color__blue),.3); */
     color:hsl(var(--color__blue));
@@ -134,7 +134,7 @@ height: 100vh;
 
 
 .about .button{
-background-image:linear-gradient(  hsl(var(--color__blue),.3), hsl(var(--color__blue)));
+background-image:linear-gradient( (--clr-primary-1), var(--clr-primary-4));
     width: 30vw;
     display: block;
     padding: 4% 0;
@@ -185,9 +185,6 @@ position: relative;
 z-index: 4;
 border: none;
 }
-
-
-
 
 }
 

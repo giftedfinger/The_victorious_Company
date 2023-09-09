@@ -1,6 +1,7 @@
   import React, { useRef,useEffect,useState } from 'react';
 import  './Header.css'
-import Nav from '../nav/nav'
+// import Nav from '../nav/nav'
+import Navbar from '../nav/NavBar';
 import Button from '../../../UI/button/button'
 import useBackgroundAnimation from '../../../UI/UseBackgroundAnimation'
 import Glassmorphism from '../../../UI/glassmorphism/glassmorphism';
@@ -67,7 +68,7 @@ backdropfilter:!elementIsVisible ? 'blur(50%)': 'blur(50px)',
  
     <header   className= 'header'style={backgroundStyle} >
       <Glassmorphism style={navStyle} className='glassmorphism'> 
-        <Nav style={navStyle}  />
+        <Navbar style={navStyle}  />
          </Glassmorphism>
       <Glassmorphism className={` ${props.position} hero_text`}>
         <p>{props.top_text}</p>
